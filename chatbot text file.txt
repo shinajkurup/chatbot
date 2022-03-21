@@ -1,0 +1,127 @@
+Thank you for the input. I have  generated a new Service Now ticket with the details provided by you. 
+
+You will now be connected to an agent who will help with the troubleshooting of your issue.
+
+
+I have created a Service Now ticket with the Issue description of $given-name.original
+You will be connected to an agent now who will help you troubleshoot your issue
+
+
+   <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+<df-messenger
+  intent="WELCOME"
+  chat-title="intel_chatbot"
+  agent-id="4a774d93-9050-4006-8ab1-155780254caf"
+  language-code="en"
+></df-messenger>
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "chips",
+        "options": [
+          {
+            "text": "How do i Request OS Upgrade",
+            "link": ""
+          },
+          {
+            "link": "",
+            "text": "How do I check order status, modify or cancel order"
+          }
+        ]
+      }
+    ]
+  ]
+}
+
+Kindly choose from the below description the issue you are facing with $given-name.original . OR type N to go back and choose a different product.
+
+You will be now be connected to an agent who will help troubleshoot your issue.
+Thank you for using chatbot. Kindly wait for the agent to help you.
+
+Thank you for using chatbot. Have a wonderful day.
+
+The solution for this issue is available in the VAC self help tool. Kindly provide the VAC ID (eg. ID12345) if you still want a live chat help. VAC (Virtual Assistance Center) can be assessed from the below link.
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "button",
+        "icon": {
+          "color": "#FF9800",
+          "type": "chevron_right"
+        },
+        "link": "https://it.intel.com/#/incident/5651/8728",
+        "text": "Click here",
+        "event": {
+          "parameters": {},
+          "name": "",
+          "languageCode": ""
+        }
+      }
+    ]
+  ]
+}
+
+
+Unfortunately $given-name.original is not a product/service that is supported by TAC ; however, kindly refer to the below link that will guide you to raise request with correct team to resolve your issue.
+
+[I][D]{1,4}
+
+
+
+{
+  "richContent": [
+    [
+      {
+        "type": "info",
+        "subtitle": "Kindly choose a product from the below list that you are facing an issue with"
+      },
+      {
+        "type": "chips",
+        "options": [
+          {
+            "link": "",
+            "text": "Access governance system"
+          },
+          {
+            "text": "UNIX",
+            "link": ""
+          },
+          {
+            "text": "Microsoft 365",
+            "link": ""
+          },
+          {
+            "link": "",
+            "text": "VPN"
+          },
+          {
+            "text": "Time Sheet",
+            "link": ""
+          },
+          {
+            "link": "",
+            "text": "ION-Manager-Issue"
+          },
+          {
+            "text": "Microsoft Windows 10",
+            "link": ""
+          },
+          {
+            "text": "Syncplicity",
+            "link": ""
+          },
+          {
+            "link": "",
+            "text": "IT Device Market"
+          }
+        ]
+      }
+    ]
+  ]
+}
